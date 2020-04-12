@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.lastship" version="4.0.6.3" name="Lastship" provider-name="Lastship">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="repository.lastship" version="1.0.2" />
+		<import addon="script.lastship.artwork" />
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="lastship.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">Lastship</summary>
+		<description lang="de">Wir suchen Entwickler. Mit diesem Addon kannst du auf alle angebotenen Streams verschiedenster deutscher Quellen zugreifen. Beachte, dass Lastship kein offizieller Teil des verwendeten Media Players ist, und daher nicht von den offiziellen Support-Kanälen abgedeckt wird. Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinzugefügt wurde.</description>
+		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern der Software weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+				<screenshot>resources/screenshots/screenshot-01.png</screenshot>
+				<screenshot>resources/screenshots/screenshot-02.png</screenshot>
+				<screenshot>resources/screenshots/screenshot-03.png</screenshot>
+				<screenshot>resources/screenshots/screenshot-04.png</screenshot>
+				<screenshot>resources/screenshots/screenshot-05.png</screenshot>
+		</assets>
+		<news>
+		Die aktuellsten Änderungen findest du im Changelog oder Infos und Updates (whatsnew)
+		</news>
+	</extension>
+</addon>
