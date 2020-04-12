@@ -1,0 +1,69 @@
+[B]2.0.4[/B]
+- Neues Lastship Icon
+
+[B]2.0.3[/B]
+- Add new Icons:
+	Studio
+	Auszeichungen und Co
+
+[B]2.0.2[/B]
+- Add New Icons at all Categories:
+	Infos und Updates
+	Nightly Updates
+	URLResolver
+
+[B]2.0.1[/B]
+- Add Exuary Icons (Wishes from users)
+
+[B]2.0.0[/B]
+- Rename Media Subfolder and make Final Version
+
+[B]1.0.6.7[/B]
+- In Exuary Folder remove old icons and add new icons
+- in lastship folder imdb icon changed
+
+[B]1.0.6.6[/B]
+- Change Logo Colour at network icon
+- Change Trakt Icon
+
+[B]1.0.6.5[/B]
+- Make fanart lager 1920x1080
+
+[B]1.0.6.4[/B]
+- Change Fanart.png to Fanart.jpg in resources Folder
+
+[B]1.0.6.3[/B]
+- Make Genre Icons Larger
+
+[B]1.0.6.2[/B]
+- box office, film icon larger
+- Genre Icon Changed, bigger Icons
+- new-tvshow Icon, bigger text "Neu"
+- Add "IMDb Icon" to Userlist Icon
+
+[B]1.0.6.1[/B]
+- Create New Lastship Icons
+- Remove Genesis Icons and insert Exodus Icons in this Folder
+- Changed Fanart in Main Folder
+
+[B]1.0.6[/B]
+- Replaced Exodus and Genesis icons
+
+[B]1.0.5[/B]
+- Added new icon
+
+[B]1.0.4[/B]
+- Made addon a module
+
+[B]1.0.3[/B]
+- Made addon a program addon
+
+[B]1.0.2[/B]
+- Added new icons
+- Made addon an image resource
+
+[B]1.0.1[/B]
+- Added Exuary theme
+
+[B]1.0.0[/B]
+- Initial version
