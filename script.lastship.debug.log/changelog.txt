@@ -1,0 +1,44 @@
+[B]Version 2.1[/B]
+- Remove setting for broken uploader
+
+[B]Version 2[/B]
+- Rename Addon
+- Add german translation
+
+[B]Version 1.0.7[/B]
+- Remove Pastie; Add ubuntu
+- Add new artwork
+
+[B]Version 1.0.6[/B]
+- Add PIN Auth for Dropbox
+
+[B]Version 1.0.5[/B]
+- Add dropbox upload support
+- Allow individual uploaders to be disabled from settings
+
+[B]Version 1.0.4[/B]
+- Fix replaces
+
+[B]Version 1.0.3[/B]
+- Add support for freetelly
+
+[B]Version 1.0.2[/B]
+- Improve replace regexes
+- Add spmc log support
+
+[B]Version 1.0.1[/B]
+- Fix TVA expiration
+
+[B]Version 1.0.0[/B]
+- First public release
+
+[B]Version 1.0.0~beta2[/B]
+- Update artwork
+- Add upload warning
+- Add more sensitive filters
+
+[B]Version 1.0.0~beta1[/B]
+- First Beta
+
+[B]Version 0.0.1[/B]
+- Initial version

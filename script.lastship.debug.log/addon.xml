@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.lastship.debug.log" name="Lastship Kodi Log Uploader" version="2.1" provider-name="Lastship">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Upload Debug Logs to Shareable Location</summary>
+        <summary lang="de">Debug-Logs zum Teilen hochladen</summary>
+        <description lang="en">This add-on gives you the ability to upload your Kodi error logs to a shareable location, and can also optionally email you the link to your logs. Before you get started, be sure to Toggle ON the “Enable debug logging” function under the "Settings -> System -> Logging" menu within Kodi.</description>
+        <description lang="de">Dieses Addon ermöglicht es Ihnen, Kodi-Logs auf einen Server im Internet zu laden und schickt Ihnen wenn gewünscht einen Link dorthin per Email. Bevor Sie den Fehler reproduzieren, schalten Sie “Debug-Logging aktivieren” im Kodi-Menü "Einstellungen -> System -> Logging" ein.</description>
+        <language></language>
+        <platform>all</platform>
+        <source>https://github.com/lastship/script.lastship.debug.log</source>
+        <news>- Addon renamed
+- Translated to German</news>
+    </extension>
+</addon>
