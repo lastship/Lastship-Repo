@@ -1,0 +1,13 @@
+[B]v3.0.2.1(21 March 2018):[/B]
+  - Fresh TMDB / TheTVDB / OMDB API keys
+
+[B]v3.0.2(Saturday, 5 August 2017):[/B]
+  - Fresh TMDB / TheTVDB API keys
+
+[B]v3.0.1(Monday, 31 July 2017):[/B]
+  - Fixed api_key reference
+
+[B]v3.0.0(Friday, 28 July 2017):[/B]
+  - TMDB Api Key in settings - RECOMMENDED - all addon devs use their own keys
+  - Optional Keys in Settings
+  - Fixed TV Show Search Behaviour
