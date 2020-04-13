@@ -34,12 +34,12 @@
 		</extension>
 	</addon>
 	
-	<addon id="repository.lastship" name="Lastship Repository" version="1.0.5" provider-name="Lastship">
+	<addon id="repository.lastship" name="Lastship Repository" version="1.0.6" provider-name="Lastship">
 		<extension point="xbmc.addon.repository" name="Lastship Repository">
 		<dir>
 			<info compressed="false">https://github.com/lastship/Lastship-Repo/raw/master/addons.xml</info>
 			<checksum>https://github.com/lastship/Lastship-Repo/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/lastship/Lastship-Repo/tree/master/</datadir>
+			<datadir zip="true">https://raw.github.com/lastship/Lastship-Repo/master</datadir>
 		</dir>
 		<dir>
 			<info compressed="false">https://github.com/lastship/lastship-common/raw/master/addons.xml</info>
