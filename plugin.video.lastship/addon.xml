@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.lastship" version="4.0.6.3" name="Lastship" provider-name="Lastship">
+<addon id="plugin.video.lastship" version="4.0.7" name="Lastship" provider-name="Lastship">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.lastship" version="1.0.2" />
 		<import addon="script.lastship.artwork" />
 		<import addon="script.module.urlresolver" />
+		<import addon="script.module.six" version="1.11.0"/>
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="1.0.0" />
 	</requires>

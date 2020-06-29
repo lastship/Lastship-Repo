@@ -1,18 +1,14 @@
 - Den Changelog zu plugin.video.lastship bitte auch in der "whatsnew" eintragen
   Dieser kann dann nach einem Update direkt in Lastship angeschaut werden
 
-[B]4.0.6.3[/B]
-  12.04.2020
-  Update:
+[B]4.0.7[/B]
+  29.06.2020
+- Update addon.xml (add script.module.six Support)
+- Update Netflix.py (Anpassung an Castagnal Repo)
+- Update URL serienstream.sx
+- Update Kinox.to 
 - Nightly Updates deaktiviert
   Probleme mit dem Resolver Update und Lastship zieht um auf ein neues Github
-
-[B]4.0.6.2[/B]
-  11.04.2020
-- Fix UpdateManager
-
-[B]4.0.6.1[/B]
-  11.04.2020
 - Update UpdateManager (fix resolver nightly update)
 
 [B]4.0.6[/B]
