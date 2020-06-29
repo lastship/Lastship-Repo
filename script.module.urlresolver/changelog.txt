@@ -1,0 +1,1165 @@
+Mit # markierte .py Dateien sind Lastship Modifiziert und nur in unserem Resolver enthalten
+
+[B]5.1.3[/B]
+  28.06.2020
+  Update:
+- addon.xml
+- gounlimited
+- vivosx
+- wstream
+
+[B]5.1.2[/B]
+  25.06.2020
+  Update:
+- addon.xml (Add kodi-six Support)
+
+[B]5.1.1[/B]
+  22.06.2020
+  Update:
+- Language strings.po (De, En_Us, En_Uk)
+- debrid_link
+- fembed
+- filepup
+- wstream
+- helpers.py
+- Hinzufügen von Hostern welche nicht bei Jsergio vorhanden sind:
+	- bitvid
+	- clipwatching
+	- gounlimited
+	- nxload
+	- onlystream
+	- rapidvideo
+	- streamz
+- URLResolver Python 2 und Python 3 kompatible
+- Kodi Matrix kompatible
+
+  Neu:
+- daxab
+- mailru
+- ok
+- playtube
+
+[B]4.0.60[/B]
+  09.06.2020
+  Update:
+- default.py , laguage (de, en_gb, en_us), net.py, strings.py
+- common.py (Update user agent)
+- hxload (hxload domain change)
+- mystream (mystream additional domain)
+- alldebrid
+- debrid_link (Add Torrent Support)
+- premiumize_me
+- cda
+- vkprime 
+- vivosx (additional embed pattern)
+- clipwatching
+- gounlimited
+- nxload
+- streamz
+- videomega
+- vidmoly (additional match pattern)
+- onlystream
+- anavids
+
+  Neu:
+- playtube
+- anavids
+- liivideo
+- vidcloud9
+- wstream
+- easyload
+- vidmoly
+- youdbox
+- viduplayer
+
+  Entfernt:
+- abcvideo
+- castamp
+- doodstream
+- flix555
+- gamovideo
+- grifthost
+- idup
+- irshare
+- kupload
+- movdivx
+- myviru
+- oneload
+- playedto
+- powvideo
+- primevideos
+- prostream
+- speedvid
+- ssfiles
+- streamenet
+- streammoe
+- streamplay
+- syfy
+- tocloud
+- tolstd_fel
+- unitplay
+- upfiles
+- usersfiles
+- ustream
+- vidbom
+- vidcloud
+- vidtodo
+- vidmad
+- vidup
+- vshare
+- waaw
+- zevera
+
+[B]4.0.59[/B]
+  02.04.2020
+  Update
+- gounlimited
+- mystream
+- upstream
+- waaw
+- uptobox
+  Language string (de, en_us, en_gb)
+  strings.py
+- aliez
+- cda
+- chromecast
+- clicknupload
+- clipwatching
+- cloudb
+- cloudmailru
+- anistream
+- gamovideo
+- uptobox
+- videa
+- dailymotion
+- entervideo
+- jetload (Pairing erforderlich, https://jlpair.net/)
+- streamwire
+- streamz
+- fembed
+- helpers.py (Fix get_dom function )
+  - Some providers has case sensitive get attributes in source URL (e.g.: videa.hu).
+  - Better, when we find a dom in lower case, but returning with the original text in html.
+- videa (Bugfix)
+  - fix source sorting by resolution
+  - replace &amp; with & in source url
+- vevio (update und add neue domain)
+- myviru (update und add neue domain)
+  
+  Neu:
+- primevideos
+- 7up
+- saruch
+- sibnet
+- vidfast
+- vidspace
+- pkspeed
+- streamwire
+
+  Entfernt:
+- anyfiles
+- bestream
+- daclips
+- estream
+- gorillavid
+- h265
+- idtbox
+- mehlizmovies
+- movpod
+- videoapne
+- watchshare
+- fileholic
+- putvid
+
+[B]4.0.58[/B]
+  10.02.2020
+  Update:
+- mixdrop
+- mystream
+- streamz
+- mp4upload
+- hxload
+- gounlimited
+- prostream
+- upstream
+- supervide
+- jetload umbenannt und damit deaktiviert 
+  Streams von Jetload können z.Z. in Kodi z.Z. nicht abgespielt werden
+- fembed
+- flashx
+- cloudvideo
+- vidlox
+- vidoza
+
+  Neu:
+- liveleak
+- truhd
+- prostream
+- upstream
+- supervideo
+- brighteon
+- pixeldrain
+- streamz
+- yandex
+- videomega
+
+  Entfernt:
+- blazefile
+- movierulz
+- streamcloud
+- streamcloudco
+
+[B]4.0.57[/B]
+  16.11.2019
+  Update:
+- mystream
+- fembed (api url)
+- gofile
+- jetload
+- clipwatching
+- onlystream
+- mixdrop 
+- gounlimited
+- vidup_me (Add new domain)
+- nxload (decrypted)
+- Vidorg (Add new Domain)
+- Speedwatch (Fix Pattern und Additional Embed Path)
+- gofile
+- thevid
+- thevid_gmu
+- videoapne
+- hmf (handle some sites giving empty error code on HEAD request)
+
+  Neu:
+- cloudb
+- mixdrop
+- fsst #
+- idup
+- uqload
+- videobin
+
+  Entfernt:
+- Openload, Verystream, Streamango/Streamcherry (Behördlich geschlossen)
+
+[B]4.0.56[/B]
+  10.10.2019
+  Update:
+- tusfiles
+- rapidvideocom
+- vivosx
+- vidoza
+- lib net.py
+- hdgo
+- bitchute
+- hmf.py 
+- verystream (Add new domain)
+- fastplay
+- vidtodo (add new domains)
+  
+  Neu:
+- speedwatch
+- vlaretv
+- dailynotion
+- SendVid
+
+[B]4.0.55[/B]
+  31.08.2019
+  Neu:
+- watchshare
+- streamty
+- bitchute
+- chromcast
+- vidia
+- viuclips
+
+  Update:
+- hmf (Doing a HEAD request)
+- fembed (Add Domain)
+- vidstreaming
+- vidtodo (Update und Add New Domain)
+- xstreamcdn (Update patterns and New Domains)
+- ok (Add Livestream support to ok.ru)
+
+[B]4.0.54[/B]
+  12.08.2019
+  Neu: 
+- vupto
+
+  Update:
+- heplers.py
+  Some sites require Referer Header
+  Existierenden Header, 2 Zeilen nach oben verschoben
+  
+- xstreamcdn
+  Add neue Domain
+- vidtodo
+  Ersetze bei https://, {host} durch Homepagelink
+- vidstreaming
+  Adding load to the pattern makes anime results resolve properly instead of nojoy
+- fembed
+  Add neue Domain
+- openload 
+  Add neue Domain
+- vidwatch
+  Add neue Domain
+- vidlox
+  -Add neue Domain
+- onlystream
+  Add neue Domain
+- verystream
+  Add neue Domain
+- vkprime
+  Update von Generic Resolver auf URLResolver
+- vkspeed
+  Update von Generic Resolver auf URLResolver
+
+[B]4.0.53[/B]
+  09.07.2019
+  Neu:
+- videoz
+- onlystream
+  
+  Update:
+- fembed
+  zusätzliche Domain
+  Codeupdate für Bindestriche
+- rapidvideocom
+  Fix bei sortier Qualität
+- streamvid
+  Link entfernt
+- videoapne
+- openload
+  unnötige imports entfernt
+  einige PEP8
+  erhalte die eingebettete URL durch hinzufügen des Hosts, anstelle der default Domain 
+  (Get embed url by applying the host instead of the default domain)
+- Linksnappy (Add Headers)
+  Update string.po (Language German und Englisch)
+  Update strings.py
+- mp4upload (Fix Probleme mit manchen mp4upload Links)
+- xstreamcdn (Fix Regex [wenn Bindestriche in der Media ID verwendet werden])
+- videozupload
+
+[B]4.0.52[/B]
+  08.06.2019
+  Neu:
+- Linksnappy
+- jetload.net #
+- holavid
+
+- Update Linksnappy
+  Update string.po (Language German und Englisch)
+  Update strings.py
+  Linksnappy Verbesserungen:
+  1) Removed user/pass input fields from settings, user is now prompted to enter upon selecting authorization action
+  2) Replaced FILEHOSTS with FILEHOSTSREALTIME which is updated faster
+  3) Cleaned debugging messages and improved them for readability
+  4) Added cache check for file hosts
+  5) Improved progress window info for transfers
+  6) Resolveurl folder is now created under Downloads folder instead of root
+  7) Cached-only torrents setting is enabled by default
+  8) Separated hosts and regex related functions
+  9) Various other tweaks
+
+  Update:
+- hdgo
+- Language strings.po Deutsch und Englisch (Add Linksnappy)
+- strings.py (Add Linksnappy)
+- default.py (Add Linksnappy)
+
+  Entfernt:
+- animeportal
+- apnasave
+- cloudy
+- datoporn
+- dbmovies
+- divxstage
+- earnvideos
+- ecostream
+- filebebo
+- fileweed
+- filez
+- flixtor
+- getvi
+- goflicker
+- goodvideohost
+- kingfiles
+- kingvid
+- lolzor
+- mersalaayitten
+- movshare
+- mp4engine
+- mp4stream
+- myvidstream
+- nosvideo
+- ocloud
+- play44_net
+- playhd
+- promtfile
+- purevid
+- speedplay
+- speedwatch
+- spruto
+- stagevu
+- streamapi
+- streamdor
+- streamgo
+- streaminto
+- streamservice
+- teramixer
+- thevideos
+- trt
+- uploadaf
+- uploadx
+- uploadz
+- vidabc
+- vidcrazynet
+- videocloud
+- videoget
+- videohut
+- videooraj
+- videoweed
+- vidfile
+- vidhos
+- vidics
+- vidme
+- vidup_tv
+- vidzella
+- vodlock
+- watchers
+- watchonline
+- watchpass
+- xclip
+
+[B]Version 4.0.51[/B]
+  18.05.2019
+  Update:
+- verystream #
+- alldebrid (Torrent Unterstützung)
+- tunepk
+- veoh
+- vidtodo
+  
+  Neu:
+- idtbox
+- hdgo/vio (mit Auswahl für Auflösung wenn Multistream) #
+
+
+[B]Version 4.0.50[/B]
+  29.04.2019
+  Update:
+- Fix verystream #
+
+[B]Version 4.0.49[/B]
+  28.04.2019
+  Update:
+- vidlox
+- vidoza
+- vidtodo
+- uptobox
+
+  Neu:
+- verystream
+- idtbox
+
+
+[B]Version 4.0.48[/B]
+  25.04.2019
+  Update:
+- common.py
+- fembed
+- premiumize_me
+- realdebrid
+- thevid_gmu
+- thevid (Change VID_SOURCE = os.path)
+- vidtodo
+
+Neu:
+- hxload
+
+[B]Version 4.0.47[/B]
+  Update:
+  29.03.2019
+- myupload
+- streamcloudco
+- thevid
+- Greek language (string.po)
+
+[B]Version 4.0.46[/B]
+  Update:
+  19.03.2019
+- vivosx
+
+[B]Version 4.0.45[/B]
+  18.03.2019
+  Neu:
+- lewdhost
+- videoapne
+- xstreamcdn
+
+[B]Version 4.0.44[/B]
+  05.02.2019
+  Update:
+- realdebrid
+- premiumize_me
+
+[B]Version 4.0.43[/B]
+  22.01.2019
+  Neu:
+- vidbob
+
+  Update:
+- openload (Add Neue Domain)
+
+[B]Version 4.0.42[/B]
+  13.01.2019
+  Update:
+- kodi.py
+- realdebrid
+- vidtodo
+
+[B]Version 4.0.41[/B]
+  03.01.2019
+  Update:
+- stings.po
+- Sprache (Language)Englisch, Englisch US und German
+- Premiumize_me und Realdebrid
+	- Einstellung für "Nur gespeicherte Torrents"
+	- Torrent Fix für Dateien größer 75MB
+
+- Geräte Authentifizierung für Premiumize_me
+- default.py
+	
+
+[B]Version 4.0.40.3[/B]
+  26.12.2018
+  Update:
+- premiumize_me
+- realdebrid
+
+[B]Version 4.0.40.2[/B]
+  20.12.2108
+- Update Premiumize_me
+
+- Update Real Debrid für Torrent Unterstützung
+	- Magnet Link Unterstützung bei Real-Debrid Verwendung(experimental)
+	- HTTP Lösch Methode hinzugefügt
+	- Neue Real-Debrid CLIENT ID (wird benötig zum re-authorisieren)
+
+[B]Version 4.0.40.1[/B]
+  18.12.2018
+- Update Premiumize_me
+	 - Torrent und Magnet Link Unterstützung
+	 - Neue API
+
+
+[B]Version 4.0.40[/B]
+  14.12.2018
+  Update:
+- - thevid_gmu
+
+ Update Premiumize_me API:
+- strings.po EN/US/DE und strings.py
+
+  Neu:
+- Khatriuploads
+
+[B]Version 4.0.39[/B]
+  06.12.2018
+  Update (neue sortier Methode):
+- helpers.py
+- fembed
+- mehlizmovies
+- premiumize_me
+- rapidvideocom
+- vidup_me
+
+
+ 
+
+
+[B]Version 4.0.38[/B]
+  22.11.2018
+  Update (common.SMU_USER_AGENT ersetzt durch common.RAND_UA):
+- megadebrid
+- streaminto
+- vshareeu
+
+- realdebrid
+- _init_.py
+- speedvid_gmu
+- vivosx
+
+  Entfernt:
+- aa_decoder
+
+  Neu:
+- irshare
+- aadecode
+
+
+[B]Version 4.0.37[/B]
+  20.11.2018
+  Update:
+- vidcloud (Update pattern)
+- waaw (Update pattern und domain)
+- language vevio update (Englisch, Englisch US, German)
+- strings.py (vevio Update)
+
+- Besseres Handling zum Deaktivieren von Plugins welche PopUps verwenden  
+	- clicknupload
+	- flashx
+	- openload
+	- premiumize_me
+	- streamango
+	- vshareeu
+	- kodi.
+	- _init_.py
+	- hmf.py
+	- resolver.py
+	
+	
+- Domain Update
+	- datemule 
+	- hugefiles
+	- mystream
+
+  Neu:
+- cloudvideo
+- superitu
+- vevio (thevideo entfernt, jetzt neuer Name Vevio)
+- VKSpeed
+
+  Entfernt:
+- thevideo
+
+
+[B]Version 4.0.36[/B]
+  12.11.2018
+  Update:
+- openload (Add domain)
+- rapidvideocom (import urllib2)
+- thevid_gmu (def get_media_url)
+- Option zum Globalen Deaktivieren von Plugins/Hostern welche Popups/Pairing verwenden:
+	- _init_.py
+	- hmf.py
+	- strings.py
+	- Language (Englisch, Englisch US, German)
+  
+  Entfernt:
+- novamov
+
+[B]Version 4.0.35[/B]
+  02.11.2018
+  Update:
+- openload (Add Domain)
+- streamable
+- streamango (fallback to pairing if necessary)
+
+
+[B]Version 4.0.34[/B]
+  24.10.2018
+  Update:
+- thevid_gmu
+- tvlogy
+- cda
+- gounlimited
+- rapidvideocom
+- tunepk
+- videozoo
+
+- jsunpack
+  
+  Neu:
+- myupload
+- vkprime
+
+[B]Version 4.0.33[/B]
+  06.10.2018
+  Neu:
+- flix55
+- streamcloudco
+- xclip
+
+[B]Version 4.0.32.1[/B]
+  24.09.2018
+  Neu:
+- cloudvideo #
+
+[B]Version 4.0.32[/B]
+- googlevideo (add forgotten ")
+- nxload (Remove GenericResolver and add URLResolver)
+- rapidvideocom 
+
+[B]Version 4.0.31.1[/B]
+  11.09.2018
+  Update:
+- nxload # (for HDStreams)
+
+[B]Version 4.0.31[/B]
+  28.08.2018
+  Update: 
+- estream (GenericResolver entfernt, Add URLResolver)
+- powvideo (Add Domain)
+- vidzi 
+- streamservice # (for foxx.to use)
+
+[B]Version 4.0.30[/B]
+  23.08.2018
+  Update:
+- common.py (Update UserAgent)
+- anyfiles  (Update UserAgent, IE UuserAgent entfernt und Add EDGE UserAgent)
+- ecostream (Update UserAgent, IE UuserAgent entfernt und Add EDGE UserAgent)
+- fileweed  (Update UserAgent, IE UuserAgent entfernt und Add EDGE UserAgent)
+- hugefiles (Update UserAgent, IE UuserAgent entfernt und Add EDGE UserAgent)
+- mp4stream (Update UserAgent, IE UuserAgent entfernt und Add EDGE UserAgent)
+- putvid    (Update UserAgent, IE UuserAgent entfernt und Add EDGE UserAgent)
+- teramixer (Update UserAgent, IE UuserAgent entfernt und Add EDGE UserAgent)
+- uptobox   (Update UserAgent, IE UuserAgent entfernt und Add EDGE UserAgent)
+- vk        (Update UserAgent, IE UuserAgent entfernt und Add EDGE UserAgent)
+
+- openload (Add neue Domain)
+- powvideo
+- rapidvideocom
+- daclips
+- movpod 
+- jsunpack.py
+- gounlimited #  (Update for Kino.cx)
+
+  Neu:
+- streamservice # (for foxx.to use)
+- tocloud
+- unitplay
+
+
+[B]Version 4.0.29[/B]
+  14.08.2018
+  Neu:
+- videozupload
+
+[B]Version 4.0.28[/B]
+  09.08.2018
+  Neu:
+- gofile
+- vidorg
+  
+  Update:
+- speedvid_gmu
+- thevid_gmu
+- thevideo
+  
+
+[B]Version 4.0.27[/B]
+  15.07.2018
+- youtube
+	Neu Methode um Youtube Videos abzuspielen, ohne YouTube Addon Abhängigkeit 
+	Will fallback to youtube addon if resolving fails with the new method
+	Examples -
+	https://www.youtube.com/watch?v=IyB3Ovj1qh4
+	https://www.youtube.com/watch?v=b2aEskejqUU
+
+[B]Version 4.0.26[/B]
+  21.06.2018
+- Fix Flashx
+
+[B]Version 4.0.25[/B]
+  Update:
+- estream (Resolver Fix)
+- streamango (Add Additional Domain)
+- Flashx Quick Fix (Pairing Domain von .cc auf .tv)
+
+[B]Version 4.0.24[/B]
+  Update:
+- alldebrid
+- vidup_me
+- waaw
+
+
+[B]Version 4.0.23[/B]
+  Update:
+- common.py (User Agents)
+- gamovideo
+- openload (Add Domains)
+- premiumize_me (User Agents)
+- streamango
+- thevideo
+- vidto (Add Domain)
+
+  Neu:
+- vidcloud
+
+[B]Version 4.0.22[/B]
+  25.5.2018
+  Update:
+- dailymotion
+- estream
+- flashx
+- gorillavid
+- powvideo
+- premiumize_me
+- speedvid_gmu
+- streamplay
+- thevid
+- thevid_gmu
+- thevideo
+- vidlox
+- vidup_me
+- waaw
+
+  Neu:
+- add streamapi
+- add gounlimited
+- add nxload
+- add putvid
+- upfiles
+
+  Entfernt:
+- vidup_org
+
+[B]Version 4.0.21[/B]
+  23.04.2018
+- thevid_gmu
+- thevid
+- nxload
+- add streamdor
+- add vidup_tv
+
+[B]Version 4.0.20[/B]
+  14.03.2018
+- realdebrid
+- streamango
+
+[B]Version 4.0.19[/B]
+  09.03.2018
+- ol_gmu  entfernt
+- googlevideo (notify external resolving )
+- clicknupload
+- add filebebo
+- mehlizmovies
+- mycloud
+- openload (remove import ol_gmu)
+- add streamgo
+- vshare
+- yandex.py (in plugins/lib)
+
+[B]Version 4.0.18.1[/B]
+  02.03.2018
+- Update Openload (adding user agent to the header and removed references to ol_gmu.py as it is empty)
+
+[B]Version 4.0.18[/B]
+  01.03.2018
+- premiumize_me (Cache check for url)
+- flashx (Domain Update und Pairing Link Update))
+- hmf.py
+- net.py (Fix für iOS und Xbox
+- add ssfiles
+- tunepk
+- vidlox
+
+[B]Version 4.0.17.2[/B]
+- powvideo
+- speedvid_gmu
+- streamplay
+- thevid_gmu
+- thevideo
+- userscloud
+- jsunfuck.py
+
+[B]Version 4.0.17.1[/B]
+- vshare
+- vidup_me
+- thevideo #
+- entervideo
+- getvi
+
+[B]Version 4.0.16.4[/B]
+- rapidvideocom (/Auflösung/Qualitäts Berücksichtigung)
+- thevid_gmu
+
+[B]Version 4.0.16.3[/B]
+- alldebrid
+- string.po (AllDebrid Autorisierung zurücksetzen, AllDebrid Resolver autorisiert)
+- thevid_gmu
+- helpers.py
+- Add settings.xml (die user setting.xml bleibt dadurch erhalten)
+
+[B]Version 4.0.16.2[/B]
+- thevid_gmu
+- speedplay
+- tunepk
+- helpers.py
+- vidzella
+
+[B]Version 4.0.16.1[/B]
+- alldebrid (Login Check optimiert)
+- thevid (VID_Source Githubquelle angepasst)
+- thevid_gmu
+- bitporno (Scraper Fix)#
+- xvidstage (Scraper Fix) #
+
+[B]Version 4.0.15.1[/B]
+- Versions Nummer Anpsssung an die neuen Entwickler
+- clicknupload
+- userscloud (Fix defekten resolver für userscloud)
+- alldebrid (New API)
+
+[B]Version 4.0.09.2[/B]
+- googlevideos
+- mehlizmovies
+
+[B]Version 4.0.09.1[/B]
+- googlevideo
+- mycloud
+- speedvid_gmu
+- vidtodo
+- Lastship Modifizierte Dateien (mit # Symbol markiert) eingebaut (thevideo, bitporno)
+
+[B]Version 4.0.08.4[/B]
+- strings.py  (flashx.tv pairing)
+- flashx
+- remove fx_gmu
+- strings.po (Flashx Stream Authorization)
+
+[B]Version 4.0.08.3[/B]
+- openload
+- thevideo (Pairing Anzeige fix) #
+
+[B]Version 4.0.08.2[/B]
+- create ocloud
+- speedvid_gmu
+- vidstore
+
+[B]Version 4.0.08.1[/B]
+- kodi.py
+
+- vshareeu
+- speedvid_gmu
+- Lastship Modifizierte Dateien (mit # Symbol markiert) eingebaut (thevideo, bitporno)
+
+
+[B]Version 4.0.07.6[/B]
+- strings.py
+- resolver.py
+
+- fx_gmu
+- rapidgator
+- speedvid_gmu
+- vshareeu
+
+
+[B]Version 4.0.07.5[/B]
+- flashx
+- fx_gmu
+- speedvid_gmu
+
+- add mehlizmovies
+
+[B]Version 4.0.07.4[/B]
+- hdvid
+- speedvid_gmu
+- speedvideo
+- vodlock
+
+[B]Version 4.0.07.3[/B]
+- speedvid_gmu
+- xvidstage
+
+- Create videohost2
+- Create vidics
+
+[B]Version 4.0.07.2[/B]
+- bitporno (kinow hosted nun auch darauf) #
+- Lastship Modifizierte Dateien (mit # Symbol markiert) eingebaut (thevideo)
+
+[B]Version 4.0.07.1[/B]
+- bitvid #
+- lolzor
+- megamp4
+- mycloud
+- Lastship Modifizierte Dateien (mit # Symbol markiert) eingebaut (thevideo)
+
+- create vidstreaming
+
+[B]Version 4.0.06.4[/B]
+- vidme
+- grifthost
+- fx_gmu
+- speedvid
+- speedvid_gmu
+- Lastship Modifizierte Dateien (mit # Symbol markiert) eingebaut (thevideo)
+
+- remove .pyo data in urlresolver subfolder (plugin folder)
+- jsunpack.py
+- Lastship Modifizierte Dateien (mit # Symbol markiert) eingebaut (thevideo)
+
+[B]Version 4.0.06.3[/B]
+- Remove streamcherry
+
+[B]Version 4.0.06.2[/B]
+- vidme
+- xvidstage
+- Lastship Modifizierte Dateien (mit # Symbol markiert) eingebaut
+
+[B]Version 4.0.06.1[/B]
+- speedvid (+jsunpack.py)
+- datoporn removed
+- streamango / streamcherry
+- indavideo
+- Lastship Modifizierte Dateien (mit # Symbol markiert) eingebaut
+
+[B]Version 4.0.05.1[/B]
+- waaw
+- streamango (Fix smu delay)
+- mailru
+- indavideo
+- Lastship Modifizierte Dateien (mit # Symbol markiert) eingebaut
+- log_utils.py
+
+[B]Version 4.0.04.1[/B]
+- indavideo 
+- thevideo (Pairing Homepage Anzeigelink geändert) #
+
+[B]Version 4.0.04[/B]
+- Anpassung der Versions Nummer an die Update Quelle (Jsergio), KEINE Technischen Änderungen
+
+[B]Version 3.0.36[/B]
+- Bugfix  3.0.35
+
+[B]Version 3.0.35[/B]
+- streamango
+- openload (Fix not possible pairing openload ; with non english Kodi language menu)
+- fx_gmu
+- smoozed
+- thevid
+- uptobox
+- vidzella
+- vshareeu
+
+- create thevid_gmu
+- create flixtor
+
+- jsunpack.py
+
+[B]Version 3.0.34[/B]
+- movdivx
+- speedvid
+- xvidstage 
+
+[B]Version 3.0.33.14[/B]
+- xvidstage 
+- add new resolver icon
+- videoraj
+- cda
+- create and update earnvideos
+- create vidbom
+
+[B]Version 3.0.33.13[/B]
+- flashx
+- fx_gmu
+- speedvid
+- remove smoozed
+
+[B]Version 3.0.33.12[/B]
+- smoozed
+- flashx
+
+[B]Version 3.0.33.11[/B]
+- Update watchers
+- Update fx_gmu
+- Update flashx
+- weshare
+- Add oneload
+- Add waaw
+
+-[B]Version 3.0.33.10[/B]
+- settings.xml
+
+- amazon
+- thevideo
+- Add ustream
+
+-[B]Version 3.0.33.09[/B]
+- kingvid
+- speedvid
+- streamplay
+- vidtodo
+- vidwatch
+- vshareeu
+- watchers
+
+- Add powvideo
+- Add tubitv
+
+- helpers.py
+
+-[B]Version 3.0.33.08[/B]
+- init_.py
+- hmf
+- all language strings.po (Remove Name: TV Addons)
+- flashx
+
+-[B]Version 3.0.33.07[/B]
+- helpers.py
+- mailru
+- realdebrid
+- speedvid
+- streamplay
+- syfy
+
+- init_.py
+- hmf
+
+-[B]Version 3.0.33.06[/B]
+- recaptcha_v2
+- helpers.py
+- resolver.py
+- zevera
+- veeHD
+- simplydebrid
+- rpnet
+- purevid
+- premiumize_me
+- megadebrid
+- debrid_link
+- alldebrid
+- _init_.py
+- Add gamovideo
+- fastplay
+
+-[B]Version 3.0.33.03[/B]
+- Add: 
+- syfy
+- dbmovies
+
+-Fix Tunepk
+ 
+-Update:
+- rapidvideocom
+- helpers.py
+- aliez
+- thevid
+- Speedvid
+- fastplay
+
+-[B]Version 3.0.33.02[/B]
+- Create:
+- h265
+- datemule
+
+-Update:
+-- kingvid
+-- streamcherry
+-- clipwatching
+-- vshareeu
+-- xvidstage
+-- watchers
+-- vidme
+-- dailymotion
+-- vidlox
+-- gorillavid
+-- vidzi
+-- fastplay
+-- watchvideo
+-- mailru
+-- Fix for real-debrid when url startswith "//"
+
