@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.metahandler" name="metahandler" version="5.0.2" provider-name="Metahandler Team xStream">
+  <requires>
+    <import addon="script.module.six" version="0.0.1"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.myconnpy" version="1.1.6"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de">Lädt Artworks für Addons herunter, für TV Serien, Filme und Music Videos und speichert diese in einer SQLITE Datenbank</summary>
+    <description lang="de">Speichert Metadaten für TV Serien, Filme und Music Videos. [CR]Quellen:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]Diese Produkt verwendet den TMDb API, ist aber nicht von TMDb zertifiziert.</description>
+    <disclaimer lang="de"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>

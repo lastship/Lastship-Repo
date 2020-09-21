@@ -1,13 +1,26 @@
-[B]v3.0.2.1(21 March 2018):[/B]
-  - Fresh TMDB / TheTVDB / OMDB API keys
+v5.0.2.0(16 September 2020):
+- diverse fix
 
-[B]v3.0.2(Saturday, 5 August 2017):[/B]
-  - Fresh TMDB / TheTVDB API keys
+v5.0.0.0(14 August 2020):
+ - Python 3 kompatibel
+ - code cleanup
+ - remove Dependencies script.module.addon.common
+ - Versionsnummer erhöht um Probleme mit anderen Metahanlern zu vermeiden
+	
+v3.0.2.2(01 September 2019):
+ - Update Metahandlers.py
+ - Fix Duartion (wenn die Dauer nicht richtig Ausgelesen werden kann, dass keine Fehlermeldung kommt)
 
-[B]v3.0.1(Monday, 31 July 2017):[/B]
-  - Fixed api_key reference
+v3.0.2.1(21 March 2018):
+ - Fresh TMDB / TheTVDB / OMDB API keys
 
-[B]v3.0.0(Friday, 28 July 2017):[/B]
-  - TMDB Api Key in settings - RECOMMENDED - all addon devs use their own keys
-  - Optional Keys in Settings
-  - Fixed TV Show Search Behaviour
+v3.0.2(Saturday, 5 August 2017):
+ - Fresh TMDB / TheTVDB API keys
+
+v3.0.1(Monday, 31 July 2017):
+ - Fixed api_key reference
+
+v3.0.0(Friday, 28 July 2017):
+ - TMDB Api Key in settings - RECOMMENDED - all addon devs use their own keys
+ - Optional Keys in Settings
+ - Fixed TV Show Search Behaviour

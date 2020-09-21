@@ -1,4 +1,55 @@
-Mit # markierte .py Dateien sind Lastship Modifiziert und nur in unserem Resolver enthalten
+Mit # markierte .py Dateien sind nur in unserem Resolver enthalten
+
+[B]5.1.5[/B]
+  16.09.2020
+  Update:
+- playtube (Fix handling embed links without referer)
+- helpers.py (Fix handling embed links without referer )
+- premiumize_me
+- strings.py, string.po (de, en_gb, en_us)
+- gounlimited
+- cloud9 (Update pattern)
+- aadecode.py
+- png.py
+- FEmbed additional domain
+- Cloudb resolver additoinal embed method 
+
+  Neu:
+- Megaload #
+
+[B]5.1.4[/B]
+  16.08.2020
+  Update:
+- vidoza
+- anistream
+- aparat
+- vidstreaming
+- playtube (pattern)
+- nxload
+- vevio (pattern and domain)
+- 7up
+- gounlimited
+- jetload
+- megadebrid
+- mixdrop
+- streamtape
+- vevio
+- vivosx
+- vshareeu
+- vupto
+- __init__ (unter .....lib/urlresolver), handle non english characters in settings.xml
+- __init__ (unter .....lib/urlresolver), möglicher settings.xml Codierungs fix für XBox
+- __init__ (unter .....lib/urlresolver)
+
+  Neu:
+- doodstream
+- vidbom
+- vidup
+- aparat
+- cloud9
+- oogly
+- voesx
+- vudeo
 
 [B]5.1.3[/B]
   28.06.2020
