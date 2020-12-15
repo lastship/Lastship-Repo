@@ -1,6 +1,11 @@
 - Den Changelog zu plugin.video.lastship bitte auch in der "whatsnew" eintragen
   Dieser kann dann nach einem Update direkt in Lastship angeschaut werden
 
+[B]4.0.7.2[/B]
+  15.12.2020
+  Update:
+- OpenMeta Addon Support hinzugefügt
+
 [B]4.0.7.1[/B]
   21.09.2020
   Update:
