@@ -1,6 +1,40 @@
 - Den Changelog zu plugin.video.lastship bitte auch in der "whatsnew" eintragen
   Dieser kann dann nach einem Update direkt in Lastship angeschaut werden
 
+[B]4.1.1[/B] 
+  13.03.2021
+  Upate:
+- serienstream (Domain Update)
+
+[B]4.1.0[/B]
+  02.10.2020
+  Update:
+- trakt.py
+- sources
+- source_utils.py
+- source_faultlog
+- navigator
+- movies.py
+- libtools.py
+- directstream
+- debrid.py
+- control.py
+- common.py
+- _init_.py
+- settings.xml
+- tvmaze.py
+- service.py
+- RequestHandler
+- lastship.py
+- py23
+
+- Indexseiten
+  - hdgo
+  - kinox
+
+  Neu:
+- tools.py
+
 [B]4.0.7.1[/B]
   21.09.2020
   Update:
