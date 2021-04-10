@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.lastship" version="4.1.1" name="Lastship" provider-name="Lastship">
+<addon id="plugin.video.lastship" version="4.1.2" name="Lastship" provider-name="Lastship">
     <requires>
         <import addon="repository.lastship" version="1.0.2" />
         <import addon="script.lastship.artwork" />
